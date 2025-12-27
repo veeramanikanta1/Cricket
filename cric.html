@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body {
+            margin: 0;
+        font-family: monospace;
+        background: #00030a;
+        color: white;
+        margin-top: -20px;
+    }
+
+    header {
+        text-align: center;
+        padding: 5px;
+        background: #02000f;
+        border-bottom: 5px solid #0a5952;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: rgb(76, 41, 228);
+        width: 200px;
+        padding: 25px;
+        border-radius: 35px;
+        text-align: center;
+        border: 5px solid #e6dcd5;
+        box-shadow: 0 0 25px grey;
+        margin-bottom: -10px;
+    }
+    .card:hover
+    {
+        transform:scale(1.05);
+    }
+
+    .card img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid ivory;
+        margin-bottom: 15px;
+    }
+
+    .player-name {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .role {
+        font-size: 15px;
+        opacity: 0.8;
+        margin-bottom: 25px;
+    }
+
+    .stat {
+        text-align: left;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .bar-bg {
+        background: #d4ced9;
+        height: 8px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .bar-fill {
+        height: 8px;
+        border-radius: 5px;
+        background: #1190ad;
+    }
+
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        padding: 20px;
+        background: #0c1115;
+        border-top: 5px solid #075257;
+       
+    }
+
+    </style>
+</head>
+<body>
+    <body>
+
+<header>
+    <h4>🏏 Team India — Player Stats Dashboard </h4>
+</header>
+
+<div class="card-container">
+
+    <div class="card">
+        <img src="Rohit.png" alt="Rohit Sharma">
+        <div class="player-name">Rohit Sharma</div>
+        <div class="role">Role: 🏏 Batsman</div>
+
+        <div class="stat">Runs
+            <div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="stat">Strike Rate
+            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="stat">Wickets
+            <div class="bar-bg"><div class="bar-fill" style="width: 20%;"></div></div>
+        </div>
+    </div>
+     <div class="card">
+        <img src="Sreesanth.png" alt="Sreesanth">
+        <div class="player-name">Sreesanth</div>
+        <div class="role">Role: 🏏 Bowler</div>
+
+        <div class="stat">Runs
+            <div class="bar-bg"><div class="bar-fill" style="width: 25%;"></div></div>
+        </div>
+
+        <div class="stat">Strike Rate
+            <div class="bar-bg"><div class="bar-fill" style="width: 40%;"></div></div>
+        </div>
+
+        <div class="stat">Wickets
+            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Hardik.png" alt="Hardik Pandya">
+        <div class="player-name">Hardik Pandya</div>
+        <div class="role">Role: 🏏 All-rounder</div>
+
+        <div class="stat">Runs
+            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="stat">Strike Rate
+            <div class="bar-bg"><div class="bar-fill" style="width: 100%;"></div></div>
+        </div>
+
+        <div class="stat">Wickets
+            <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div>
+        </div>
+    </div>
+
+    
+    <div class="card">
+        <img src="yuvi.png" alt="Yuvraj Singh">
+        <div class="player-name">Yuvraj Singh</div>
+        <div class="role">Role: 🏏 All-rounder</div>
+
+        <div class="stat">Runs
+            <div class="bar-bg"><div class="bar-fill" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="stat">Strike Rate
+            <div class="bar-bg"><div class="bar-fill" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="stat">Wickets
+            <div class="bar-bg"><div class="bar-fill" style="width: 50%;"></div></div>
+        </div>
+    </div>
+</div>
+    
+<footer>
+    @2025 Cricket +
+</footer>
+</body>
+</body>
+</html>
